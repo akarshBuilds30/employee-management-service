@@ -9,9 +9,10 @@ import lombok.Setter;
 @Setter
 public class EmployeeRequestDTO {
 
-    @NotBlank
+    @NotBlank(message = "Name is required")
     private String name;
 
-    @Email
+    @NotBlank(message = "Email is required")
+    @Email(message = "Invalid email format")
     private String email;
 }
