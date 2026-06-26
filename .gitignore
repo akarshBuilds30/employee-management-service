@@ -1,0 +1,23 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+logs/
+*.log
+spring.log
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
